@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "quicksand";
+    src: url("fonts/quicksand/Quicksand-Regular.otf");
+}
+
+body{
+	margin: 10% 20%;
+	font-family: "quicksand";
+	font-size: 18px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+}
+
+a {
+	color: purple;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px blue solid;
+	background-color: rgb(66,160,241);
+}
+
+section {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 5fr;
+}
+
+#formation {
+	grid-template-columns: 1fr 15fr;
+}
+
+
+mark {
+	font-weight: bold;
+	background-color: rgb(255,255,255);
+}
+
