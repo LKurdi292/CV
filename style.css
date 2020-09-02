@@ -6,7 +6,7 @@
 body{
 	margin: 10% 20%;
 	font-family: "quicksand";
-	font-size: 18px;
+	font-size: 20px;
 }
 
 header{
@@ -27,6 +27,15 @@ h1 {
 	font-size: 30px;
 	text-align: center;
 	text-decoration: underline;
+	margin-top: 30px;
+}
+
+h1 + div {
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 60px;
+
 }
 
 h2 {
@@ -37,19 +46,51 @@ h2 {
 	background-color: rgb(66,160,241);
 }
 
-section {
+
+
+/*Les différentes sections du CV */
+#formation {
 	display: grid;
 	grid-gap: 10px;
-	grid-template-columns: 1fr 5fr;
-}
-
-#formation {
 	grid-template-columns: 1fr 15fr;
 }
 
+
+#competences {
+	grid-gap: 25px;
+	display: flex;
+}
+
+
+#exp div {
+	margin-bottom: 50px;
+}
+
+#exp div p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#exp div.date {
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+#exp img {
+	height: 20px;
+	width: 20px;
+}
+
+#langages span {
+	font-style: italic;
+	font-size: 16px;
+}
 
 mark {
 	font-weight: bold;
 	background-color: rgb(255,255,255);
 }
 
+span.tech {
+	text-decoration: underline;
+}
