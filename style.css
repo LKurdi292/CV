@@ -6,13 +6,13 @@
 body{
 	margin: 10% 10%;
 	font-family: "quicksand";
-	font-size: 20px;
+	font-size: 24px;
 }
 
 header{
 	display: flex;
 	justify-content: space-between;
-	font-size: 22px;
+	font-size: 26px;
 }
 
 
@@ -20,19 +20,13 @@ h1 {
 	font-size: 30px;
 	text-align: center;
 	text-decoration: underline;
-	margin-top: 30px;
+	margin-top: 60px;
+	margin-bottom: 100px;
 }
 
-h1 + div {
-	font-size: 30px;
-	font-style: italic;
-	text-align: center;
-	margin-bottom: 70px;
-
-}
 
 h2 {
-	font-size: 22px;
+	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
 	border: 1px black solid;
@@ -91,15 +85,33 @@ span.tech {
 	margin-bottom: 5px;
 }
 
-#exp div.date {
+#exp .date {
 	margin-bottom: 20px;
 	font-style: italic;
 }
 
+	/* fleches */
 #exp img {
 	height: 20px;
 	width: 20px;
 }
+
+
+	/*Centres d'intérêts */
+
+#interets span {
+	text-decoration: underline;
+}
+
+
+#interets #date {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 22px;
+
+}
+
+	/*Gestion des pages*/
 
 #cnrs_page-break {
 	page-break-after: always;
@@ -108,3 +120,54 @@ span.tech {
 #stageM2_second-page {
 	margin-top: 50px;
 }
+
+
+	/*Media Queries*/
+@media all and (max-device-width: 480px)
+{
+	body{
+		font-size: 14px;
+	}
+
+	header{
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	}
+
+	header img {
+		display: none;
+	}
+
+
+	h1 {
+		font-size: 18px;
+		text-align: left;
+		text-decoration: underline;
+		margin-top: 30px;
+		margin-bottom: 100px;
+	}
+
+
+	h2 {
+		font-size: 16px;
+		text-align: left;
+		text-transform: uppercase;
+		border: 0.5px black solid;
+		padding: 2px;
+		background-color: rgb(66,160,241);
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
