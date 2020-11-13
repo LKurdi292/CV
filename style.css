@@ -47,19 +47,14 @@ mark {
 	background-color: rgb(255,255,255);
 }
 
-span.tech {
-	text-decoration: underline;
-}
 
-
-/*Les différentes sections du CV */
+/*Les différentes sections du CV*/
 
 	/*Formation*/
 #formation {
 	display: grid;
 	grid-template-columns: 1fr 15fr;
 }
-
 
 
 	/*Compétences*/
@@ -72,7 +67,7 @@ span.tech {
 
 #langages span {
 	font-style: italic;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 	/*Expériences*/
@@ -90,7 +85,12 @@ span.tech {
 	font-style: italic;
 }
 
-	/* fleches */
+span.tech {
+	text-decoration: underline;
+}
+
+
+		/* flèches */
 #exp img {
 	height: 20px;
 	width: 20px;
@@ -108,10 +108,10 @@ span.tech {
 	font-weight: normal;
 	font-style: italic;
 	font-size: 22px;
-
 }
 
-	/*Gestion des pages*/
+
+/*Gestion des pages*/
 
 #cnrs_page-break {
 	page-break-after: always;
@@ -122,7 +122,7 @@ span.tech {
 }
 
 
-	/*Media Queries*/
+/*Media Queries*/
 @media all and (max-device-width: 480px)
 {
 	body{
@@ -130,9 +130,8 @@ span.tech {
 	}
 
 	header{
-	display: flex;
-	flex-direction: column;
-	font-size: 14px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	header img {
@@ -142,7 +141,7 @@ span.tech {
 
 	h1 {
 		font-size: 18px;
-		text-align: left;
+		text-align: center;
 		text-decoration: underline;
 		margin-top: 30px;
 		margin-bottom: 100px;
@@ -151,16 +150,24 @@ span.tech {
 
 	h2 {
 		font-size: 16px;
-		text-align: left;
+		text-align: center;
 		text-transform: uppercase;
 		border: 0.5px black solid;
 		padding: 2px;
 		background-color: rgb(66,160,241);
 	}
 
+	#competences {
+		display: flex;
+		flex-direction: vertical;
+	}
 
 
-
+	#interets #date {
+		font-weight: normal;
+		font-style: italic;
+		font-size: 10px;
+	}
 }
 
 
