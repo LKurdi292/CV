@@ -4,18 +4,51 @@
 }
 
 body{
-	margin: 10% 10%;
+	margin: 2% 10% 10% 10%;
 	font-family: "quicksand";
 	font-size: 24px;
 }
 
-header{
+a:hover {
+	font-weight: bold;
+}
+
+
+/* Header de la page  - EN/FR*/
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 4%;
+	/* border: 1px solid chocolate; */
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav #pageActuelle:link, #pageActuelle:visited {
+	color: rgb(66,160,241);
+	font-weight: bold;
+}
+
+nav #autrePage:link, #autrePage:visited {
+	color: grey;
+}
+
+
+/* Header du CV */
+#header{
 	display: flex;
 	justify-content: space-between;
 	font-size: 26px;
 }
 
+#header a{
+	color: purple;
+}
 
+	/* Développeuse Python Junior */
 h1 {
 	font-size: 30px;
 	text-align: center;
@@ -25,6 +58,7 @@ h1 {
 }
 
 
+/* Titre et encadré des sections */
 h2 {
 	font-size: 24px;
 	text-align: center;
@@ -34,13 +68,6 @@ h2 {
 	background-color: rgb(66,160,241);
 }
 
-a {
-	color: purple;
-}
-
-a:hover {
-	font-weight: bold;
-}
 
 mark {
 	font-weight: bold;
@@ -56,6 +83,9 @@ mark {
 	grid-template-columns: 1fr 15fr;
 }
 
+#formation a:visited {
+	color: black;
+}
 
 	/*Compétences*/
 #competences {
@@ -98,13 +128,12 @@ span.tech {
 
 
 	/*Centres d'intérêts */
-
 #interets span {
 	text-decoration: underline;
 }
 
 
-#interets #date {
+#interets .date {
 	font-weight: normal;
 	font-style: italic;
 	font-size: 22px;
@@ -112,7 +141,6 @@ span.tech {
 
 
 /*Gestion des pages*/
-
 #cnrs_page-break {
 	page-break-after: always;
 }
@@ -163,7 +191,7 @@ span.tech {
 	}
 
 
-	#interets #date {
+	#interets .date {
 		font-weight: normal;
 		font-style: italic;
 		font-size: 10px;
