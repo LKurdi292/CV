@@ -52,7 +52,7 @@ nav #autrePage:link, #autrePage:visited {
 h1 {
 	font-size: 30px;
 	text-align: center;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	margin-top: 60px;
 	margin-bottom: 100px;
 }
@@ -174,11 +174,9 @@ span.tech {
 	h1 {
 		font-size: 20px;
 		text-align: center;
-		text-decoration: underline;
 		margin-top: 30px;
 		margin-bottom: 50px;
 	}
-
 
 	h2 {
 		font-size: 18px;
@@ -189,11 +187,10 @@ span.tech {
 		background-color: rgb(66,160,241);
 	}
 
-	#competences {
-		display: flex;
-		flex-direction: vertical;
+	#exp img {
+		height: 15px;
+		width: 15px;
 	}
-
 
 	#interets .date, #langages span {
 		font-weight: normal;
@@ -208,39 +205,53 @@ span.tech {
 	body{
 		margin-right: 6%;
 		margin-top: 4%;
+		margin-bottom: 6%;
 		font-size: 12px;
 	}
 
 	#header {
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	#header img {
 		display: none;
 	}
 
-
 	h1 {
 		font-size: 16px;
 		text-align: center;
-		text-decoration: underline;
 		margin-top: 30px;
 		margin-bottom: 50px;
 	}
 
-
 	h2 {
 		font-size: 14px;
 		text-align: center;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		border: 0.5px black solid;
 		padding: 2px;
 		background-color: rgb(66,160,241);
 	}
 
 	#competences {
-		display: flex;
-		flex-direction: vertical;
+		grid-gap: 30px;
+	}
+
+	#stageM2_second-page {
+		margin-top: 20px;
+	}
+
+	#exp div {
+		margin-bottom: 20px;
+	}
+
+	#exp div p {
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+
+	#exp .date {
+		margin-bottom: 8px;
 	}
 
 	#exp img {
@@ -248,7 +259,7 @@ span.tech {
 		width: 10px;
 	}
 
-	#interets .date, span.tech {
+	#interets .date, #langages span {
 		font-weight: normal;
 		font-style: italic;
 		font-size: 10px;
