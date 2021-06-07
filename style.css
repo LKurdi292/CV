@@ -100,6 +100,10 @@ mark {
 	font-size: 18px;
 }
 
+#langages .underline {
+	text-decoration: underline;
+}
+
 	/*Expériences*/
 #exp div {
 	margin-bottom: 50px;
@@ -137,6 +141,7 @@ span.tech {
 	font-weight: normal;
 	font-style: italic;
 	font-size: 22px;
+	margin-bottom: 2%;
 }
 
 
