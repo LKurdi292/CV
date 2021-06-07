@@ -104,7 +104,7 @@ mark {
 	color: black;
 }
 
-.formation .annee {
+.annee {
 	margin-right: 5px;
 }
 
@@ -134,7 +134,6 @@ span.tech {
 	height: 20px;
 	width: 20px;
 }
-
 
 	/*Centres d'intérêts */
 #interets span {
