@@ -77,18 +77,8 @@ mark {
 
 /*Les différentes sections du CV*/
 
-	/*Formation*/
-#formation {
-	display: grid;
-	grid-template-columns: 1fr 15fr;
-}
-
-#formation a:visited {
-	color: black;
-}
-
 	/*Compétences*/
-#competences {
+.competences {
 	display: grid;
 	grid-gap: 50px;
 	grid-template-columns: auto auto auto;
@@ -104,17 +94,28 @@ mark {
 	text-decoration: underline;
 }
 
+	/*Formation*/
+#formation {
+	display: grid;
+	grid-template-columns: 1fr 15fr;
+}
+
+#formation a:visited {
+	color: black;
+}
+
+
 	/*Expériences*/
-#exp div {
+.exp div {
 	margin-bottom: 50px;
 }
 
-#exp div p {
+.exp div p {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-#exp .date {
+.exp .date {
 	margin-bottom: 20px;
 	font-style: italic;
 }
@@ -125,7 +126,7 @@ span.tech {
 
 
 		/* flèches */
-#exp img {
+.exp img {
 	height: 20px;
 	width: 20px;
 }
@@ -146,13 +147,13 @@ span.tech {
 
 
 /*Gestion des pages*/
-#cnrs_page-break {
+.competences_page-break, .exp_page-break {
 	page-break-after: always;
 }
 
-#stageM2_second-page {
+/* #stageM2_second-page {
 	margin-top: 50px;
-}
+} */
 
 
 /*Media Queries*/
