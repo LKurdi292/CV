@@ -44,8 +44,16 @@ nav #autrePage:link, #autrePage:visited {
 	font-size: 22px;
 }
 
+#header p {
+	margin-top: 0;
+}
+
 #header a{
 	color: purple;
+}
+
+#header img {
+	height: 210px;
 }
 
 	/* Développeuse Python Junior */
