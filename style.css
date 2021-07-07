@@ -54,7 +54,7 @@ nav #autrePage:link, #autrePage:visited {
 
 /* Développeuse JS Junior */
 #header img {
-	height: 210px;
+	height: 200px;
 }
 
 h1 {
@@ -88,7 +88,7 @@ mark {
 	/*Compétences*/
 #competences {
 	display: grid;
-	grid-gap: 50px;
+	grid-gap: 40px;
 	grid-template-columns: auto auto auto;
 }
 
